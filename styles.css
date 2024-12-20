@@ -1,0 +1,103 @@
+body {
+    background-color: #fefae0; /* Maini krāsu pēc vajadzības */
+    margin: 0; /* Noņem ārējās atstarpes */
+    font-family:garamond; /* Pievieno fontu */
+}
+h1 {
+    color: #606c38; /* Zilā krāsa */
+    font-size: 2.5em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+H2 {
+    color: #bc6c25;
+    font-size: 1em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+p {
+    color: #000000;
+    font-size: 0.6em;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+img {
+    display: flex;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 50%; 
+    height: auto; 
+    border-radius: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.center-button {
+    display: block;
+    margin: 10px auto; /* Centram horizontāli */
+    padding: 10px 20px;
+    background-color: #bc6c25;
+    border: 2px solid #fefae0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.center-button:hover {
+    background-color: #606c38;
+}
+/* Stils virsraksta konteinerim */
+.header-container {
+    display: flex; 
+    align-items: center; /* Vertikālā centrēšana */
+    padding: 10px;
+}
+.image-row {
+    display: flex; /* Aktivizē flexbox */
+    justify-content: center; /* Centrē attēlus horizontāli */
+    gap: 20px; /* Atstarpe starp attēliem */
+}
+.image-row img{
+    width: 100px; /* Attēla platums */
+    height: 100px; /* Automātiska proporciju saglabāšana */
+}
+.members-container {
+    display: flex; /* Izkārtojums horizontāli */
+    gap: 20px; /* Atstarpe starp dalībniekiem */
+    justify-content: center; /* Centrs horizontālajā virzienā */
+}
+/* Fiksētie apakšējie attēli */
+.bottom-left-image {
+    position: fixed; /* Fiksēts apakšējā kreisajā stūrī */
+    bottom: 10px; /* Attālums no apakšas */
+    left: 10px; /* Attālums no kreisās malas */
+    width: 100px; /* Attēla izmērs */
+    height: auto; /* Saglabā proporcijas */
+}
+/* Komandas sadaļas centrēšana */
+#team-section {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Atsevišķa komandas dalībnieka informācija */
+.team-member {
+    margin-bottom: 20px;
+}
+
+/* Komandas dalībnieka vārda un pārējās informācijas stils */
+.team-member h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.team-member p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+}

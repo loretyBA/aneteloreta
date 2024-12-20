@@ -1,0 +1,71 @@
+body {
+    background-color: #fefae0; /* Maini krāsu pēc vajadzības */
+    margin: 0; /* Noņem ārējās atstarpes */
+    font-family:garamond; /* Pievieno fontu */
+}
+img{
+    width: 250px;
+    height: 250px
+    img-align: center
+}
+.members-container {
+    display: flex; /* Izkārtojums horizontāli */
+    gap: 20px; /* Atstarpe starp dalībniekiem */
+    justify-content: center; /* Centrs horizontālajā virzienā */
+    flex-wrap: wrap; /* Automātiski pārceļas uz nākamo līniju, ja nav vietas */
+}
+
+.member {
+    text-align: center; /* Teksts zem bildēm tiek centrēts */
+    max-width: 300px; /* Ierobežo katra dalībnieka bloka platumu */
+}
+
+.member img {
+    width: 100%; /* Bildes aizpilda vecāka elementa platumu */
+    border-radius: 50%; /* Apaļas bildes */
+    margin-bottom: 10px; /* Atstarpe starp bildi un tekstu */
+}
+h1 {
+    color: #bc6c25;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    color: #283618;
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.5;
+} 
+h4 {
+    color: #bc6c25;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#team-section {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member {
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.team-member p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+}

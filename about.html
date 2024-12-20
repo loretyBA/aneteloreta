@@ -1,0 +1,69 @@
+
+
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datu vizualizācija ar Chart.js</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul style="list-style: none; padding: 0;">
+                <li style="display: inline; margin-right: 10px;">
+                    <a href="index.html" style="border: 2px solid black; padding: 5px 10px; text-decoration: none; border-radius: 5px;">Sākums</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 style="border: 2px solid black; padding: 10px; background-color: #606c36; text-align: center;">Par mums</h2>
+        <section>
+            <h3 style="border: 2px solid black; padding: 10px; background-color: #bc6c25; text-align: center;">Komandas dalībnieki</h3>
+            <div class="members-container">
+                <!-- Dalībnieks 1 -->
+                <div class="member">
+                    <h4>Galvenais kaķis</h4>
+                    <img src="assets/neo1.jpg" alt="Dalībnieks 1">
+                    <p><strong>Vārds:</strong> Neo</p>
+                    <p><strong>Vecums:</strong> 2</p>
+                    <p><strong>Dzimums:</strong> Kaķis</p>
+                    <p><strong>Komentārs:</strong> Šorīt cilvēks atkal aizmirsa manu galveno likumu – es ēdu pirms viņa kafijas! Bet nu labi, es viņam piedevu, jo tas mazais gurķītis no brokastu šķīvja bija garšīgs. Protams, viņš teica: "Neo, tas nav priekš tevis!" Bet es zinu – viss, kas uz galda, ir priekš manis. Tas ir likums.
+    
+                        Vēlāk es atkal izglābu pasauli. Logā ieraudzīju to nejēdzīgo putnu, kas uzdrošinājās manā teritorijā atlidot. Es, protams, metos pret logu un biedēju viņu. Cilvēks smējās, bet viņš nesaprot, ka es esmu varonis.Vakarpusē mans cilvēks beidzot bija sapratis, ka es esmu karalis. Viņš skrāpēja manu zodu tik labi, ka es gandrīz aizmirsu par to, ka viņš no rīta kavējās ar ēdienu. Gandrīz.
+                        
+                        Un tā ir mana diena.   
+                        Mans moto: <strong>Murrrrrrr</strong></p>
+                </div>
+    
+                <!-- Dalībnieks 2 -->
+                <div class="member">
+                    <h4>Galvenais kaķis</h4>
+                    <img src="assets/late1.jpg" alt="Dalībnieks 2">
+                    <p><strong>Vārds:</strong> Late</p>
+                    <p><strong>Vecums:</strong> 6</p>
+                    <p><strong>Dzimums:</strong> Kaķene</p>
+                    <p><strong>Komentārs:</strong> Murrr... Vai jau rīts? Nē, pārāk agri. Es pagriežos uz otru sānu un turpinu savus sapņus – sapņus par to, kā kādreiz valdīšu pār visu pasauli. Bet kas tas? Cilvēks kustas. Ak, cilvēk, tu droši vien esi nomodā, lai tikai piepildītu manas vajadzības?
+    
+                        Protams, kā pirmā lieta man jāveic rīta inspekcija – vai ēdiena bļoda ir piepildīta. Nopietni? Pustukša?! Šis ir nepiedodami. Es sēžu blakus un skaļi murrāju, kamēr cilvēks saprot, ko es vēlos. Kad saule noriet un visi kļūst mierīgi, es iekārtojos savā iecienītākajā vietā – uz dīvāna, tieši tur, kur cilvēks grib apsēsties. Tā ir mana teritorija. Es cieši skatos uz viņu, un viņš, saprotot, cik es esmu īpaša, atdod man vietu. Mans moto: <strong>Murrrrrrr</strong></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <h1>Mājdzīvnieku skaits valstī</h1>
+
+    <h2>Piemērs 1</h2>
+    <p>Šis grafiks parāda kaķu skaita izmaiņas noteiktā laika periodā, izmantojot datus no Latvijas datu kopas.</p>
+    <canvas id="chart1" width="600" height="200"></canvas>
+
+    <h2>Piemērs 2</h2>
+    <p>Otrajā piemērā tiek salīdzināti kaķu skaita dati dažādās pašvaldībās vai reģionos, lai saprastu atšķirības.</p>
+    <canvas id="chart2" width="600" height="200"></canvas>
+
+    <script src="main.js"></script>
+</body>
+</html>
